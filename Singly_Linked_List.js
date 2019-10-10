@@ -39,8 +39,8 @@ class Node{
 
   var obj1 = new SinglyLinkedList()
   obj1.push("First")
-//   obj1.push("Second")
-//   obj1.push("Third")
+  obj1.push("Second")
+  obj1.push("Third")
 
-  var obj = obj1.push()
-  console.log(obj)
+//   var obj = obj1.push()
+  console.log(obj1)
