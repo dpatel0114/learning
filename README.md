@@ -1,5 +1,6 @@
 ## Data Structure: 
 First of all, lets learn about Singly Linked List: 
+    ![Getting Started](images/singly_image.png)
     - Will help you to orgnize the data and store the data. 
     - A linked list is a linear data structure where each element is a separate object. Each element of a list is comprising of two items - the data and a reference to the next node. 
     - Linked Lists are incredibly useful programming data structures; they store both data and order information in a dynamic way. 
