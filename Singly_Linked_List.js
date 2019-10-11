@@ -89,7 +89,7 @@ class Node{
   obj.unshift(90)
 
   obj.shift()
-//   obj.shift()
+  obj.shift()
 
 
 
