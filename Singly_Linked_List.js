@@ -33,14 +33,66 @@ class Node{
       this.length++;
       return this;
     }
+
+    pop(){
+        if(!this.head) return undefined;
+        var current = this.head;
+        var newTail = current;
+        while(current.next){
+          newTail = current;
+          current = current.next;
+        }
+        this.tail = newTail;
+        this.tail.next = null;
+        this.length--;
+        if(this.length === 0){
+          this.head = null;
+          this.tail = null;
+        }
+        return current; 
+      }
   
+    shift(){
+        if(!this.head) return undefined;
+        var currentHead = this.head;
+        this.head = currentHead.next;
+        this.length--;
+        if(this.length === 0){
+          this.tail = null;
+        }
+        return currentHead;
+      }
+    
+    unshift(val){
+        var newNode = new Node(val);
+        if(!this.head){
+          this.head = newNode;
+          this.tail = this.head;
+        }else {
+          newNode.next = this.head;
+          this.head = newNode;
+        }
+        this.length++;
+        return this;
+      }
   }
 
 
-  var obj1 = new SinglyLinkedList()
-  obj1.push("First")
-  obj1.push("Second")
-  obj1.push("Third")
+//   var n1 = new Node()
+  var obj = new SinglyLinkedList()
+  obj.push(100)
+  obj.push(200)
+  obj.push(250)
+  obj.pop()
+//   obj.pop()
 
-//   var obj = obj1.push()
-  console.log(obj1)
+  obj.unshift(90)
+
+  obj.shift()
+//   obj.shift()
+
+
+
+
+
+  console.log(obj)
