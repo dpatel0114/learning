@@ -114,6 +114,18 @@ class Node{
       // list.push(201);
       // list.push(250);
       // list.push(350);
+
+      remove(index){
+        if(index < 0 || index > this.length) return undefined;
+        if(index === 0) return this.shift();
+        if(index === this.length - 1) return this.pop();
+    
+        var previousNode = this.get(index -1);
+        var removed = previousNode.next;
+        previousNode.next = removed.next;
+        this.length--;
+        return removed;
+      }
     
     
   }
@@ -133,8 +145,9 @@ class Node{
 //   obj.shift()
 //   obj.get(2)
   obj.set(1, 230)
-  obj.insert(2, 400)
-  
+//   obj.insert(2, 400)
+  obj.remove(2)
+
 
 
 
