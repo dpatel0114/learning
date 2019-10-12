@@ -11,7 +11,9 @@ First of all, lets learn about Singly Linked List:
     2. Pop (removing node from end of the list)
     3. Shift (removing node from beginning)
     4. Unshift -> Takes value in. (adding node to beginning)
-    5. get (getting node from the list)
-    6. set (setting node to something else)
+    5. Get (getting node from the list)
+    6. Set (setting node to something else)
+    7. Insert -> Takes index and value (insert value at any index)
+    8. Remove -> takes index in. (remove any data from that index)
     
 

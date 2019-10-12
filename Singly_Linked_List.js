@@ -76,7 +76,7 @@ class Node{
         return this;
       }
 
-      get(index){
+    get(index){
         if(index < 0 || index >= this.length) return null;
         var counter = 0;
         var current = this.head;
@@ -87,7 +87,7 @@ class Node{
         return current;
       }
       
-      set(index, val){
+    set(index, val){
         var foundNode = this.get(index);
         if(foundNode){
           foundNode.val = val;
@@ -97,6 +97,19 @@ class Node{
       }
     
       
+    insert(index, val){
+        if(index < 0 || index > this.length) return false;
+        if(index === this.length) return !!this.push(val);
+        if(index === 0) return !!this.unshift(val);
+    
+        var newNode = new Node(val);
+        var prev = this.get(index - 1);
+        var temp = prev.next;
+        prev.next = newNode;
+        newNode = temp;
+        this.length++;
+        return true;
+      }
       // list.push(100);
       // list.push(201);
       // list.push(250);
@@ -120,7 +133,8 @@ class Node{
 //   obj.shift()
 //   obj.get(2)
   obj.set(1, 230)
-
+  obj.insert(2, 400)
+  
 
 
 
