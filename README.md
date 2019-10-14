@@ -1,8 +1,9 @@
 # Data Structure: 
--- First of all, lets learn about Singly Linked List: 
+
  ## Singly Linked List:
 
     ![Getting Started](images/singly_image.png)
+
     - Will help you to orgnize the data and store the data. 
     - A linked list is a linear data structure where each element is a separate object. Each element of a list is comprising of two items - the data and a reference to the next node. 
     - Linked Lists are incredibly useful programming data structures; they store both data and order information in a dynamic way. 
@@ -21,5 +22,13 @@
 ## Stacks: 
 
     ![Getting Started](images/stack_image.png)
+
+    - Stack is a linear data structure in which additionand removal follows in a particular order;
+    - LIFO => Last In First Out
+    - Assuming the stack can grow dynamically, we are not considering the overflow condition. 
+    - There will be 2 main methods to make stacks to work. 
+    1. Push -> Takes value in. (adding element to the end of the stack)
+    2. Pop (removing element from the stack, if the function is call onthe empty stack its indicates "underflow")
+        - this mwthod returns the top most element of the stack bcz of LIFO.
     
 
