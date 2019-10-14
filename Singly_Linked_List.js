@@ -138,9 +138,7 @@ class Node{
   obj.push(250)
 //   obj.pop()
 //   obj.pop()
-
 //   obj.unshift(90)
-
 //   obj.shift()
 //   obj.shift()
 //   obj.get(2)
@@ -148,8 +146,5 @@ class Node{
 //   obj.insert(2, 400)
   obj.remove(2)
 
-
-
-
-
+  
   console.log(obj.head)
