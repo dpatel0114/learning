@@ -2,7 +2,7 @@
 
  ## Singly Linked List:
 
-    ![Getting Started](images/singly_image.png)
+    ![Getting Started](./images/singly_image.png)
 
     - Will help you to orgnize the data and store the data. 
     - A linked list is a linear data structure where each element is a separate object. Each element of a list is comprising of two items - the data and a reference to the next node. 
@@ -20,8 +20,8 @@
     8. Remove -> takes index in. (remove any data from that index)
 
 ## Stacks: 
-
-    ![Getting Started](images/stack_image.png)
+    
+    ![Getting Started](./images/stack_image.png)
 
     - Stack is a linear data structure in which additionand removal follows in a particular order;
     - LIFO => Last In First Out
