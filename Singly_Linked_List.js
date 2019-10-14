@@ -3,6 +3,13 @@
 // TO make Singly Linked List class
 // TODO: First PUSH method ; 
 // TODO: Second POP method ;
+// TODO: Third SHIFT method;
+// TODO: Fourth UNSHIFT method;
+// TODO: Fifth GET method;
+// TODO: Sixth SET method;
+// TODO: Seventh INSERT method;
+// TODO: Eighth REMOVE method;
+// TODO: Nineth REVERSE method;
 
 
 
@@ -146,5 +153,5 @@ class Node{
 //   obj.insert(2, 400)
   obj.remove(2)
 
-  
+
   console.log(obj.head)
