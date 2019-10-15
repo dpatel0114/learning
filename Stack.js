@@ -37,7 +37,7 @@ class Stack{
       }
 
     pop(){
-    if(!this,first) return null;
+    if(!this.first) return null;
     var temp = this.first;
     if(this.first === this.last){
         this.last = null;
@@ -55,6 +55,8 @@ var stack = new Stack()
 stack.push(100)
 stack.push(200)
 stack.push(300)
+stack.push(380)
 
+stack.pop()
 stack.pop()
 console.log(stack)
