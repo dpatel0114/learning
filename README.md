@@ -19,7 +19,7 @@
 
 ## Stacks: 
 
-    <!-- ![Getting Started](images/stack_image.png) -->
+ 
 
     - Stack is a linear data structure in which additionand removal follows in a particular order;
     - LIFO => Last In First Out
