@@ -1,5 +1,5 @@
 // ? DATA STURCTURE : 2. Stacks: 
-//  // TODO: First PUSH method ; 
+// TODO: First PUSH method ; 
 // TODO: Second POP method ;
 // this is like shift and unshift bcz we are adding and removing from beginnning 
 // In Stacks, last go in first go out ==> LIFO 
