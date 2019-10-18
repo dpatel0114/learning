@@ -1,4 +1,4 @@
-// ? DATA STRUCTURE : Queue
+// ? DATA STRUCTURE : 3. Queue
 // TODO: First ENQUEUE method;
 // TODO: Second DEQUEUE method;
 
@@ -8,9 +8,8 @@ class Node{
         this.value = value;
         this.next = null;
     }
-
 }
-
+// test
 class Queue {
     constructor(){
         this.first = null;
