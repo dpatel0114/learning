@@ -30,8 +30,8 @@
         - this mwthod returns the top most element of the stack bcz of LIFO.
     
 ## Queues:
-      ![Getting Started](./images/queue.jpg)
-      
+
+   ![Getting Started](./images/queue.jpg)
     - Queue is a linear data structure in which additional removal follows ina particular order;
     - FIFO => First In First Out
     - Assuming the stack can grow dynamically, we are not considering the overflow condition. 
