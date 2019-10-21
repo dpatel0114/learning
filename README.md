@@ -29,4 +29,14 @@
     2. Pop (removing element from the stack, if the function is call onthe empty stack its indicates "underflow")
         - this mwthod returns the top most element of the stack bcz of LIFO.
     
+## Queues:
+
+    - Queue is a linear data structure in which additional removal follows ina particular order;
+    - FIFO => First In First Out
+    - Assuming the stack can grow dynamically, we are not considering the overflow condition. 
+    - There will be 2 main methods to make queues to work.
+    1. Enqueue -> Takes value in. (adding element to the queue using push to end)
+    2. Dequeue -> (removing element from the queue using shift to beginnning)
+
+
 
