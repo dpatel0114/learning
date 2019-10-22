@@ -42,3 +42,12 @@ class Queue {
     }
 
 }
+
+var q = new Queue()
+q.enqueue('one')
+q.enqueue('two')
+q.enqueue('three')
+q.enqueue('four')
+q.dequeue()
+q.dequeue()
+console.log(q)
