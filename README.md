@@ -39,5 +39,20 @@
     1. Enqueue -> Takes value in. (adding element to the queue using push to end)
     2. Dequeue -> (removing element from the queue using shift to beginnning)
 
+## Binary search tree(BST):
+  ![Getting Started](./images/BST.jpg)
+
+  - A Tree is a collection of node connected by some edges. A tree is a non linear data structure. 
+  - There are some basic structure of the tree :
+    - Root: The top node in a tree
+    - Child: A node directly connected to another node when moving away from the root. 
+    - Parent: the converse notion of a child.
+    - Sibling: A group of nodes with the same parent. 
+    - Leaf: A node with no children.
+    - Edge: The connection between one node and another. 
+  - A Binary Search tree is a tree data structure in which each node has at most two children, which are referred toas left child and right child. 
+  - A binary search tree in which nodes which have lesser value stored on the left while the nodes with higher value are stored at hte right. 
+  
+
 
 
