@@ -52,7 +52,10 @@
     - Edge: The connection between one node and another. 
   - A Binary Search tree is a tree data structure in which each node has at most two children, which are referred toas left child and right child. 
   - A binary search tree in which nodes which have lesser value stored on the left while the nodes with higher value are stored at hte right. 
-  
+  - There will be some method we can build to BST:
+    1. insert -> It will takes the value in as argument. It will insert the value where it should go. It will check left or right, depends the value is larger or smaller than the root value. 
+    2. Find -> It will takes the value in as argument. It will find the value from appropiate position from the BST. Same way it will go to either way right or left, depends on value. 
+    
 
 
 
