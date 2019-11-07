@@ -55,7 +55,7 @@
   - There will be some method we can build to BST:
     1. insert -> It will takes the value in as argument. It will insert the value where it should go. It will check left or right, depends the value is larger or smaller than the root value. 
     2. Find -> It will takes the value in as argument. It will find the value from appropiate position from the BST. Same way it will go to either way right or left, depends on value. 
-    
+    3. Contain -> It will takes the value inas argument. It will be samilar method as finad method. you can say it is find method but just gives you answer in True and False, instead of giving the node. s
 
 
 

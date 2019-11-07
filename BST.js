@@ -39,6 +39,8 @@ class BST{
         }
     }
 
+    // returns the value node it self with this find method
+    // Searching - O(log n) --> NOT geranteed. 
     find(value){
         if(this.root === null) return false;
         var current = this.root;
@@ -56,6 +58,7 @@ class BST{
           return current;
       }
 
+      //This method is similar to find but give you true and false as answer:
       contains(value){
         if(this.root === null) return false;
         var current = this.root;
