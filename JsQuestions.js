@@ -12,4 +12,22 @@ let addTo = function(passed){
     
     let tryMe = addTo(5)  // tryMe is the add function whatever its returns ==> passed=5 
     console.dir(tryMe)
-    console.log(tryMe(2)) // 
+    console.log(tryMe(2)) // tryMe is add function so when u call tryMe It will run add function and giving you the answer of add()
+
+    // Q: How to create Private variable in Javascript?
+    function secretVariable(){
+
+        var private = xyz
+    }
+    
+    // A: 
+    function secretVariable(){
+        var private = xyz
+        return function(){
+        return private
+        }
+        }
+        var getPrivateVariable = secretVarible()
+        console.log(getPrivateVariable)
+        // ans: xyz 
+        
