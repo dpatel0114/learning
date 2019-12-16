@@ -14,9 +14,8 @@ let addTo = function(passed){
     console.dir(tryMe)
     console.log(tryMe(2)) // tryMe is add function so when u call tryMe It will run add function and giving you the answer of add()
 
-    // Q: How to create Private variable in Javascript?
+// Q: How to create Private variable in Javascript?
     function secretVariable(){
-
         var private = xyz
     }
     
@@ -30,4 +29,21 @@ let addTo = function(passed){
         var getPrivateVariable = secretVarible()
         console.log(getPrivateVariable)
         // ans: xyz 
-        
+
+    
+// Q: What is output?
+console.log(typeof(typeof 1))
+// A: typeof 1 ==> number 
+// typeof number ==> string 
+// typeof('number') ====> ans will be string 
+
+
+// Q: how to add something to end or begining?
+var myArray = [a,b,c,d]
+    myArry.push('end')
+    myArray.unshift('start')
+
+    // ES6:
+    myArray = ['start', ...myArray]
+    myArray = [...myArray, 'end']
+    myArray= ['start', ...myArray, 'end']
