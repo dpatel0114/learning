@@ -1,5 +1,6 @@
 // Q: What is closure in jS? ==> frequantly asked que in interview 
 // A: When you define function and you do not passed parameter, still you can access that data within function from outer function or outer scope its called closure. 
+// closures:  are created whenever a variable tht is defined outside the current scope is accessed from within some inner                scope. 
 let addTo = function(passed){
 
     let add = function(inner){
