@@ -55,3 +55,18 @@
     // A: there are two datatype : primitive and object 
    // ?  primitive: String, null, undefined, boolean, number, symbol
     
+
+//* Q: what is output?
+    
+    var num = 4;
+    function outer(){
+        var num = 2
+        function inner(){
+        num++;
+        var num = 3;
+        console.log(num)}
+        inner();
+    }
+        outer();
+
+        // A: Output will be num = 3 //var num = 4 is not in the scope; when inner is called it will only gives num = 3 bcz its in the scopr function and outer is not called inside the function so when you call outer function only inner function runs and it will gives you 3 as answer. 
